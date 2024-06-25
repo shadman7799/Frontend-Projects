@@ -1,0 +1,142 @@
+@media screen and (max-width: 1312px){
+	.first_half{
+		width: 100%;
+		float: none;
+	}
+	.second_half{
+		width: 100%;
+		float: none;
+		margin-left:0px;
+		margin-top: 30px
+
+	}
+	.message label {
+	    top: 58px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+	.testimonial_img img{
+		width: 80px;
+		height: 80px;
+	}
+	.testimonial_content {
+	margin-left: -20px;
+    }
+}
+
+@media screen and (max-width: 980px){
+	.nav{
+		display: none;
+	}
+	.nav ul{
+		text-align: center;
+	}
+	.nav ul li{
+		display:block;
+		width: 200px;
+		text-align: center;
+		margin: auto;
+	}
+	.mobile_menu_icon{
+		display: block;
+		float: right;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+	}
+	.container{
+	width: 95%;
+    }
+    .single_team_box svg {
+	width: 10px !important;
+	height: 10px;
+    }
+    footer h3 {
+	font-size: 16px;
+    }
+}
+@media screen and (max-width: 825px){
+	.service_box {
+	width: 45%;
+    }
+    .single_team_box {
+	width: 45%;
+	margin-top: 30px;
+    }
+    .team_boxs {
+	margin-top: 50px;
+    }
+    .testimonial_single_box {
+	width: 100%;
+	float: left;
+	margin-top: 50px;
+    }
+    .testimonial_img {
+	width: 100%;
+	float: none;
+	text-align: center;
+    }
+    .testimonial_content {
+	width: 100%;
+	float: none;
+	text-align: center;
+    }
+    .testimonial_content{
+    	margin-top: 10px;
+    }
+    .testimonial_content h2 {
+	margin: 20px 0px 0px 0px;
+	font-size: 20px;
+	margin-top: 3px;
+    }
+    .testimonial_content h6{
+    	margin-top: 0px;
+    }
+    .progress_boxs {
+	margin-top: 50px;
+    }
+    .single_progress_box {
+	width: 45%;
+	float: left;
+	text-align: center;
+	margin-top: 50px;
+    }
+}
+@media screen and (max-width: 660px){
+	.single_portfolio_box h2 {
+	font-size: 15px;
+    }
+}
+@media screen and (max-width: 530px){
+	.single_portfolio_box {
+	width: 100%;
+	float: none;
+    }
+}
+@media screen and (max-width: 480px){
+	.Header_content h2 {
+	font-size: 25px;
+    }
+    .service_box {
+	width: 100%;
+	float: none;
+    }
+    .single_team_box {
+	width: 100%;
+	float: none;
+	margin-top: 50px;
+    }
+    .social_links {
+	margin-top: 10px;
+    }
+    .single_progress_box {
+	width: 100%;
+	float: none;
+    }
+}
+@media screen and (max-width: 360px){
+	.brown_btn{
+		width: 180px;
+	}
+}

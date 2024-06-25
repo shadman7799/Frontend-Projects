@@ -1,0 +1,534 @@
+
+/* header css satrt */
+body{
+	font-family: 'Titillium Web', sans-serif;
+}
+
+header{
+	background-color: #87509c;
+	overflow: hidden;
+	padding-bottom:130px; 
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.mobile_menu_icon{
+	display: none;
+}
+.logo{
+	width: 20%;
+	float: left; 
+}
+.nav{
+	width: 80%;
+	float: left;
+}
+.header_top{
+	overflow: hidden; 
+	margin-top: 50px;
+}
+.nav ul{
+	margin: 0px;
+	padding: 0px;
+	text-align:right;
+}
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+.nav ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	text-transform: uppercase;
+}
+.nav ul li a:hover{
+	background-color: #643a79;
+}
+.Header_content{
+	width: 75%;
+	text-align: center;
+	margin: auto;
+	margin-top: 140px;
+}
+.Header_content h2{
+	color: #f7f3ea;
+	font-size: 42.16px;
+
+}
+.brown_btn{
+	padding: 20px;
+	width: 270px;
+	text-align: center;
+	background-color: #eb7d4b;
+	display: inline-block;
+	margin-top: 50px;
+	text-transform:uppercase;
+	text-decoration: none;
+	font-weight: 700;
+
+}
+/* header css satrt */
+
+/* service css start */
+.service{
+	background: #17c2a4;
+	overflow: hidden;
+	padding: 120px 0px;
+}
+
+.service:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.service h2{
+	position: relative;
+
+}
+.service h2:after{
+	position: absolute;
+	content: '';
+	width: 90px;
+	height: 2px;
+	background-color:#14a58c;
+	bottom: -22px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.service_box{
+	width: 24%;
+	float: left; 
+	text-align: center;
+	margin-left: 10px;  
+	margin-top: 60px;
+	color: #fff;
+}
+#first_service_box,
+#first_team_box{
+	margin-left: 0px;
+}
+
+.header_section{
+	text-align: center;
+	color: #fff;
+}
+.header_section p{
+	opacity: .7;
+	width:580px;
+	margin: auto;
+	margin-top: 50px;
+
+}
+.service_box img{
+	width: 80px;
+	height: 100px;
+}
+.service_box h4{
+	margin-top: 40px;
+	margin-bottom: 0px;
+	font-size: 24px;
+ 
+}
+.service_box p{
+	font-size: 16px;
+	line-height: 22px;
+	opacity: .8;
+	margin: auto;
+}
+
+.service_box svg{
+	width: 80px !important;
+	height: 100px;
+	font-size: 50px;
+	}
+
+
+/* service css end */
+
+/* team section css start */
+
+.team_section{
+	background-color: #e7f1f8;
+	overflow: hidden;
+	padding: 100px 0px;
+}
+.team_section p{
+	width: 640px;
+	font-size: 18.58px;
+}
+.team_section h2{
+	font-size: 42.29px;
+}
+.team_header{
+	color: #3c4761;
+}
+.team_header{
+	opacity: 1;
+
+}
+.team_boxs{
+	margin-top: 100px;
+}
+.single_team_box{
+	width: 24%;
+	float: left;
+	text-align: center;
+	margin-left: 10px;
+}
+.single_team_box img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	filter: grayscale(100%);
+}
+.single_team_box:hover img{
+	filter: grayscale(0%)
+}
+.single_team_box h2{
+	margin-bottom:5px;
+	color: #27283d;
+	font-size: 24px;
+}
+
+.single_team_box h5{
+	margin: 0px;
+	color: #30bae7;
+	font-size: 16px;
+}
+.single_team_box p{
+	font-size: 16px;
+	opacity: .7;
+	line-height: 1.5;
+	width: 200px;
+	margin: auto;
+
+}
+.single_team_box svg{
+	width: 15px !important;
+	height: 15px;
+	color: #ffffff;
+	background-color: #bdd1df;
+	border-radius: 50%;
+	padding: 5px;
+	margin-left: 10px;
+	
+
+}
+.social_links{
+	margin-top: 25px
+}
+
+/* team section css end */
+
+/* progress section css start */
+
+.progress_section{
+	background-color: #fff;
+	overflow: hidden;
+	padding: 80px 0px;
+}
+.progress_header{
+
+	text-align: center;
+}
+.progress_header h2{
+	font-size: 40px;
+	color: #3c4761;
+}
+.progress_header p{
+	font-size: 18px;
+	color: #3c4761;
+	margin: auto;
+	margin-bottom: -9px;
+}
+
+.progress_boxs{
+	margin-top: 100px;
+
+}
+.single_progress_box{
+	width: 24%;
+	float: left;
+	text-align: center;
+}
+
+/* progress section css end */
+
+/* portfolio section css start */
+.portfolio{
+	background-color: #ffdd99;
+	overflow: hidden;
+	padding: 50px 0px;
+}
+.portfolio_header{
+	color:#393939;
+}
+.portfolio .header_section  h2 {
+	position: relative;
+}
+
+.portfolio .header_section h2:after {
+    position: absolute;
+    content: '';
+    width: 90px;
+    height: 2px;
+    background: #e5c37f;
+    margin-top: 63px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.portfolio_filter_menu ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+
+}
+.portfolio_filter_menu ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+.portfolio_filter_menu ul li a{
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+	padding: 0px 15px;
+	background-color: #ebc985;
+ 
+}
+.portfolio_filter_menu ul li a:hover{
+	background-color: #fff;
+}
+.portfolio_filter_menu{
+	margin-top: 50px;
+}
+
+.portfolio_boxs{
+	margin-top: 60px;
+	text-align: center;
+}
+.header_section h2{
+	font-size: 40px;
+}
+.header_section p{
+	font-size: 18px;
+	width: 100%
+}
+.single_portfolio_box{
+	width: 48%;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.single_portfolio_box img{
+	width: 100%;	
+}
+.single_portfolio_box h2{
+	font-weight: 100;
+	font-size: 18px;
+	text-transform: uppercase;
+	opacity: .7;
+
+
+}
+
+.portfolio_load_more_btn {
+	padding: 20px 0px;
+	width: 290px;
+	text-align: center;
+	background-color: #17c2a4;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+	color: white;
+	border-radius: 5px;
+	border-bottom: 3px solid #14a58c;
+	margin: 50px 0px;
+}
+
+/* portfolio section css end */
+
+/* testimonial area css strt */
+.testimonial_area {
+    background: #d74680;
+    padding: 50px 0px;
+}
+.testimonial_area .header_section h2 {
+	position: relative;
+}
+
+.testimonial_area .header_section h2:after {
+    position: absolute;
+    content: '';
+    width: 90px;
+    height: 2px;
+    background: #b73c6d;
+    margin-top: 63px;
+    left: 50%;
+    transform: translate(-50%);
+}    
+.testimonial_boxs{
+	margin-top: 50px;
+}
+.testimonial_boxs:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+.testimonial_single_box{
+	width: 45%;
+	float: left;
+	margin-top: 80px;
+	margin-left: 15px;
+}
+.testimonial_img img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+.testimonial_img{
+	width: 30%;
+	float: left;
+}
+.testimonial_content{
+	width: 69%;
+	float: left;
+	color: white;
+}
+.testimonial_content h2{
+	margin: 20px 0px 0px 0px;
+	font-size: 24px;
+}
+.testimonial_content h6{
+	margin: 0px;
+	font-weight: 400;
+	color: #facd96;
+	font-size: 14px;
+	margin-top: 8px;
+}.testimonial_content p{
+	margin: 0px;
+	font-size: 16px;
+	line-height: 1.5;
+	font-style: italic;
+}
+/* testimonial area css end */
+
+/* contact section css start */
+.contact_section{
+	padding: 50px 0px;
+	background: #3c5499;
+}
+.first_half{
+	width: 48%;
+	float: left;
+}.second_half{
+	width: 48%;
+	float: left;
+}
+.first_half {
+    position: relative;
+}
+.first_half input {
+    width: 100%;
+    background: #273a71;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: none;
+}
+
+.first_half label {
+    position: absolute;
+    color: white;
+    top: 10px;
+    left: 20px;
+}
+.first_half label span {
+    color: red;
+}
+
+.second_half {
+    position: relative;
+    margin-left: 42px;
+}
+
+input[type="email"] {
+    width: 100%;
+    background: #273a71;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 5px;
+}
+.second_half label {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: white;
+}
+
+.second_half label span {
+    color: red;
+}
+form{
+	margin-top: 50px;
+}
+.message textarea {
+    background: #273a71;
+    border: none;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.message {
+    position: relative;
+}
+
+.message label {
+    position: absolute;
+    top: 85px;
+    left: 15px;
+    color: white;
+}
+
+.message label span {
+    color: red;
+}
+input[type="submit"] {
+    width: 250px;
+    display: block;
+    margin: auto;
+    padding: 20px 0px;
+    margin-top: 50px;
+    background: #30bae7;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    border-bottom: 3px solid #299ec5;
+    font-weight: 700;
+}
+/* contact section css end */
+
+/* footer section css start */
+
+footer {
+  padding: 20px 0px;
+  background: #344b8e;
+  text-align: center;
+}
+footer h3 {
+  display: inline-block;
+  margin-left: 50px;
+  color: #fff;
+  font-weight: 600;
+}
+footer h3:hover{
+	color: #30bae7;
+	cursor: pointer;
+}
+/* footer section css end */
+
